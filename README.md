@@ -1,6 +1,15 @@
 # ROS 2 EKF SLAM — TurtleBot3
-
 **Author:** Kyaw Linn Khant
+![ROS 2](https://img.shields.io/badge/ROS_2-Humble-22314E?logo=ros)
+![C++](https://img.shields.io/badge/C++-17-00599C?logo=cplusplus)
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python)
+![TurtleBot3](https://img.shields.io/badge/TurtleBot3-Burger-FF6600)
+![License](https://img.shields.io/badge/License-MIT-green)
+---
+
+## Demo
+
+[![EKF SLAM Demo](https://img.youtube.com/vi/RIUTl7c3cwI/0.jpg)](https://youtu.be/RIUTl7c3cwI)
 
 ---
 
@@ -19,7 +28,6 @@ Three independent pose estimates are maintained and visualized side-by-side:
 ---
 
 ## Repository Structure
-
 ```
 slam-project/
 ├── turtlelib/            # Core math library: SE2, kinematics, EKF, circle fitting
@@ -51,7 +59,6 @@ The full SLAM stack. Clusters LiDAR returns, fits circles to identify landmarks,
 ---
 
 ## Quick Start
-
 ```bash
 # Full SLAM in simulation
 ros2 launch nuslam slam.launch.xml
