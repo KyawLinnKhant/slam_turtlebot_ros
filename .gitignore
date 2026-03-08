@@ -1,0 +1,8 @@
+turtlelib/build/
+turtlelib/tmp/
+turtlelib/Testing/
+**/__pycache__/
+*.o
+*.a
+*.pyc
+.DS_Store
