@@ -10,7 +10,7 @@
 
 ## Demo
 
-[![EKF SLAM Demo](https://img.youtube.com/vi/RIUTl7c3cwI/0.jpg)](https://youtu.be/2M8OZtKfG7k)
+[![EKF SLAM Demo](https://youtu.be/2M8OZtKfG7k)]
 
 ---
 
